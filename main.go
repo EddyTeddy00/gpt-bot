@@ -10,7 +10,7 @@ import (
 func main() {
 	// API_TOKENS
 	tokenGPT := ""
-	tokenTG := "5848185673:AAGUArDsWxeMW-su4YsiP1Cgo2sT9VJ52No"
+	tokenTG := ""
 
 	// Telegram initialization
 	bot, err := tgAPI.NewBotAPI(tokenTG)
