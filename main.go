@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// API_TOKENS
-	tokenGPT := "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"
+	tokenGPT := ""
 	tokenTG := "5848185673:AAGUArDsWxeMW-su4YsiP1Cgo2sT9VJ52No"
 
 	// Telegram initialization
