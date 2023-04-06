@@ -200,14 +200,14 @@ func Init(userParams Params) (*Params, error) {
 		params.Request.Model = userParams.Request.Model
 	}
 
-	// Проверяем, установлен ли KeepMessageHistory, если он не установлен по умолчанию
+	// Проверяем, установлен ли KeepMessageHistory, если он не установлен, то по умолчанию
 	// Check if KeepMessageHistory is set, if not set to default
 	if userParams.KeepMessageHistory {
 		params.KeepMessageHistory = true
 	}
 
-	// Проверяем, установлена ли температура, если она не установлена по умолчанию
-	// Check if temperature is set, if not set to default
+	// Проверяем, установлена ли StripNewline, если она не установлена, то по умолчанию
+	// Check if StripNewline is set, if not set to default
 	if userParams.StripNewline {
 		params.StripNewline = true
 	}
